@@ -17,16 +17,16 @@ pip install -r requirements.txt
 Then run command:
 ```shell
 python try.py
-
+```
 ## commands to run: 
 To run the file locally: 
 ```shell
 python main.py
-
+```
 To run the application using the Fastapi: 
 ```shell
 uvicorn api:app --reload 
-
+```
 ## Files
 * scrap.py: This file include the scraping of the article data of newspaper including Title,Text,Summary,Keywords,URL and savinf in the scrap_newspaper folder. 
 * convert.py: This file will convert the language other than english into the english language nad save the file in the csv format in converted_data folder.
