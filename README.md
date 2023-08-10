@@ -3,9 +3,6 @@ Newspaper Article scraping,language conversion and summarization.
 A simple implementation of scraping the newspaper article,  then converting the langauge into the english lanugage using the helsinki hugging face model.Then summarizing the converted data in short for easy reading and understanding of any language newspaper.
 
 
-Activate the env using command:
-source /your directory path /.venv/bin/activate
-
 Requirements
 pip install -r requirements.txt
 python -m nltk.downloader punkt
@@ -19,6 +16,7 @@ python try.py
 
 commands to run: 
 To run the file locally: python main.py
+
 To run the application using the Fastapi: uvicorn api:app --reload 
 
 Files
