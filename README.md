@@ -4,10 +4,10 @@ A simple implementation of scraping the newspaper article,  then converting the 
 
 
 ## Requirements
-  '''shell
+  ```shell
   pip install -r requirements.txt
 
-  '''shell
+  ```shell
   python -m nltk.downloader punkt
 
 If the punkt error comes even after running commands :
